@@ -1,0 +1,52 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - mazepath",
+            "request": "launch",
+            "mainClass": "mazepath",
+            "projectName": "java_5bc23646"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - display_array_using_recursion",
+            "request": "launch",
+            "mainClass": "display_array_using_recursion",
+            "projectName": "java_5bc23646"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - nextSmallerIndexOnLeft",
+            "request": "launch",
+            "mainClass": "nextSmallerIndexOnLeft"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - pattern",
+            "request": "launch",
+            "mainClass": "pattern"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - first",
+            "request": "launch",
+            "mainClass": "first"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Helloworld",
+            "request": "launch",
+            "mainClass": "Helloworld"
+        }
+    ]
+}
