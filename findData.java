@@ -5,7 +5,14 @@ public class findData {
         if(idx==arr.length)return -1;
         if(arr[idx]==data)return idx; 
         return findDataFunction(arr , data, idx+1);
-    } 
+    }
+     public static int findDataFunction2(int[] arr  , int data , int idx){
+        if(idx == arr.length)return -1;
+        int smallAns = findDataFunction2(arr,data,idx+1);
+        if(smallAns != -1)return smallAns;
+        return arr[idx]==data ? idx : -1;
+     }
+    
         public static void main(String[] args){
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
@@ -16,7 +23,9 @@ public class findData {
         }
 
         int  ans = findDataFunction(arr,data,0);
+        int ans2 = findDataFunction(arr,data,0); 
         System.out.println(ans);
+        System.out.printl(ans2);    
     }
    
 
